@@ -1,0 +1,192 @@
+#cover {
+  background-image: url("pictures/comment_PNEgG2w2yPdEw9GsayUieBHAMJCLifsv.gif");
+  text-shadow: 1px 1px 5px #000000;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#cover h1 {
+  margin: 30px 0 0;
+  color: white;
+  text-align: center;
+  font-size: 70px;
+}
+
+#cover p {
+  margin: 10px 0 0;
+  text-align: center;
+  color: white;
+  font-style: italic;
+  font-size: 24px;
+}
+
+#cover p a {
+  color: white;
+}
+
+#cover img {
+  width: 100%;
+}
+
+#about {
+  display: flex;
+}
+
+#about img {
+  margin: 20px;
+}
+
+#about .text {
+  z-index: 100;
+  /* background-color: rgba(255, 255, 255, 0.6); */
+  padding: 25px;
+  margin-top: 45px;
+  /* border-radius: 15px; */
+  /* height: min-content; */
+  max-width: 600px;
+  font-size: 20px;
+}
+
+.ozon {
+  color: #005bff;
+  font-weight: bold;
+}
+
+#glenn-text h2 {
+  font-size: 56px;
+}
+
+section::after {
+  background-image: none !important;
+  background-color: #1a376a;
+  border-radius: 5px;
+  margin-top: -5px;
+  padding: 0 !important;
+  height: auto !important;
+  /* color: black !important; */
+  opacity: 0.5;
+}
+
+.small-img {
+  width: 80px;
+}
+
+.emoji-text {
+  font-size: 4rem !important;
+}
+
+.coffe-emoji {
+  font-size: 3rem !important;
+
+}
+
+.c-blue {
+  color: #1a376a;
+}
+
+#pass-1 h2,
+#gmail h2 {
+  font-size: 2em;
+}
+
+#links ul {
+  font-size: 0.8em;
+}
+
+#see-more h2 {
+  text-align: center;
+  font-size: 100px;
+  margin: 0;
+}
+
+#see-more a {
+  color: #1a376a;
+}
+
+#see-more img {
+  margin: 0 auto;
+}
+
+.see-more {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.dinos {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dinos img {
+  width: 70px;
+  margin-top: -70px;
+}
+
+#final h2 {
+  font-size: 2em;
+}
+
+#final img {
+  margin-top: 20px;
+}
+
+img.shadow {
+  border-radius: 5px;
+  box-shadow: 0 1px 4px 0 hsl(0deg 0% 46% / 50%);
+}
+
+.insta-img {
+  width: 40%;
+}
+
+#insta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.my-illegal {
+  text-align: center;
+}
+
+.large-text {
+  font-size: 2em;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+
+}
+
+.flex-center>div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.flex-center>div>span {
+  margin-top: 15px;
+}
+
+#why>div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+
+#Protect {
+  font-size: 13px;
+}
